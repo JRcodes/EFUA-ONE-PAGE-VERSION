@@ -3,12 +3,8 @@ body {
     font-weight: 800;
 }
 
-.flw {
-    background: url(photo-1518112166137-85f9979a43aa.jpeg) center center / cover;
-    /* background-color: #7ccca74d; */
-}
 .bg {
-    background: #e26b3c94;
+    background: linear-gradient(to top, #f9b1a5, #fcded9);
 }
 
 #page1 {
@@ -62,7 +58,7 @@ body {
 }
 
 /* .bg-dark {
-    background-color: transparent;
+    background-color: inheritnt;
 } */
 .rEvent {
     width: 33.33%;
@@ -86,7 +82,7 @@ body {
 }
 
 .bg-black {
-    background-color: #0000008e;
+    background-color: inherit;
 }
 
 .fa-spotify:hover {
@@ -100,16 +96,22 @@ body {
 }
 
 .jtron-ovrda {
-    background-color: #0000008e;
+    background-color: inherit;
 }
 
 button.btn {
     border: solid white 2px;
-    background-color: #0000008e;
+    background-color: inherit;
 }
 
 .story {
     color: inherit;
     text-decoration: underline;
 }
+hr {
+    width: 60%
+}
 
+.btn-ovrd3 {
+    color: white;
+}
