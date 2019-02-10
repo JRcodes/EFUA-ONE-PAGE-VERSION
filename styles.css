@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poiret One', cursive;
+    font-weight: 800;
+}
+
+.flw {
+    background: url(photo-1518112166137-85f9979a43aa.jpeg) center center / cover;
+    /* background-color: #7ccca74d; */
+}
+.bg {
+    background: #e26b3c94;
+}
+
+#page1 {
+    height: 100%x;
+}
+
+#page2 {
+    height: 100%;
+}
+#page3 {
+    height: 100%;
+}
+#page4 {
+    height: 100%;
+}
+.fab {
+    color: #000000;
+}
+.fa-facebook:hover {
+    color: blue;
+    font-size: 30px;
+}
+
+.fa-instagram:hover {
+    color: brown;
+    font-size: 30px;
+}
+
+.fa-twitter:hover {
+    color: rgb(13, 138, 240);
+    font-size: 30px;
+}
+
+.fa-youtube:hover {
+    color: red;
+    font-size: 30px;
+}
+
+.t-half {
+    background: url(PHOTOS/IMG_0622.jpeg) center/ cover;
+    height: 75vh;
+}
+
+.img-thumbnail {
+    border: solid rgb(122, 113, 113) 1.5px;
+    padding: 0;
+    height: 100%;
+}
+.sticky {
+    position: fixed;
+}
+
+/* .bg-dark {
+    background-color: transparent;
+} */
+.rEvent {
+    width: 33.33%;
+    height: auto;
+}
+
+.jumbotron {
+    background: rgba(255, 255, 240, 0.767);
+}
+
+#credit--header {
+    font-size: 15px;
+}
+
+.credits {
+    font-size: 13px;
+}
+
+.wd-ovrd {
+    width: 80%;
+}
+
+.bg-black {
+    background-color: #0000008e;
+}
+
+.fa-spotify:hover {
+    color: rgb(4, 124, 20);
+    font-size: 30px;
+}
+
+.fa-apple:hover {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.jtron-ovrda {
+    background-color: #0000008e;
+}
+
+button.btn {
+    border: solid white 2px;
+    background-color: #0000008e;
+}
+
+.story {
+    color: inherit;
+    text-decoration: underline;
+}
+
