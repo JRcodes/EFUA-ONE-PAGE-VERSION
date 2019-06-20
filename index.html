@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <script src="script.js"></script>  
+
 </head>
 <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
 <body class="flw">
@@ -20,7 +20,7 @@
                     </button>
                   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <div class="d-flex justify-content-between">
+                        <div id = "clickCollapse" class="d-flex justify-content-between">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item">
                                         <a class="navbar-brand" href="#page1">EFUA</a>
@@ -75,11 +75,11 @@
                                                 </div>
                     
                                                 <div class="row justify-content-center mt-5">
-                                                        <img src="albumcover.jpeg" alt="" class="img-thumbnail col-3">
+                                                        <embed src="promoVid.mp4" autoplay = "false" height = "250" width = "500" >
                                                 </div>
                                                 <div class="text-dark">
                                                     <p class="text-center mt-5">THE STORY OF EFUA: THE EP</p>
-                                                    <p class="text-center mt-2">COMING OUT SOON</p>
+                                                    <p class="text-center mt-2">OUT NOW</p>
                                                 </div>
                                                 <div class="d-flex justify-content-center">
                                                         <a class="my-4 px-3" target="_blank" href="https://open.spotify.com/album/5ErRrVOgCRE1wcpWi37NRT"><i class="fab fa-spotify"></i></a>
@@ -92,6 +92,7 @@
                                     </div>
                             </div>
                         </div>
+                        <hr/>
         
             </div>
 
@@ -118,15 +119,15 @@
                                         </div>
                                 </div>
                                 <div class="carousel-item">
-                                        <div class="container wd-ovrd my-5">
+                                        <div class="container wd-ovrd my-md-5">
                                                 <div>
                                                     <div class="card bg-black text-dark text-center">
                                                         <div class="card-body">
                                                             <div class="row justify-content-center">
-                                                                <img src="albumcover.jpeg" alt="Album Art" class="img-thumbnail col-4 mb-4" >
+                                                                <img src="ep.JPG" alt="Album Art" class="img-thumbnail col-4 mb-4" >
                                                             </div>
                                                             <h5 class="card-title">THE STORY OF EFUA</h5>
-                                                            <p class="card-text">Deput EP Coming Out Soon</p>
+                                                            <p class="card-text">Deput EP Out Now</p>
                                                             <button class="btn border-dark bg-dark btn-ovrd3"><a class="btn-ovrd3" href="#page2">More</a>
                                                             </button>
                                                         </div>
@@ -222,14 +223,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
     <script>
-    $('.smooth').on('click', function() {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
-        });
-    
-        return false;
-    });
+
     </script>
 </body>
-</html
+</html>
