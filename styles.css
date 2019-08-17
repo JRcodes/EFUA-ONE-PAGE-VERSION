@@ -115,3 +115,8 @@ hr {
 .btn-ovrd3 {
     color: white;
 }
+
+#tidal:hover {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
